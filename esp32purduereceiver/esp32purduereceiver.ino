@@ -21,7 +21,7 @@ void setup() {
   // Connect to Wi-Fi
   WiFi.disconnect();
   WiFi.mode(WIFI_STA);
-  WiFi.begin("Dhruvsiphone", "88048123");
+  WiFi.begin("", "");
 
   while (WiFi.status() != WL_CONNECTED) {
     delay(1500);
