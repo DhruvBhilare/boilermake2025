@@ -8,13 +8,13 @@
 #include <ArduinoJson.h>
 
 // WiFi credentials
-const char* ssid = "Dhruvsiphone";
-const char* password = "88048123";
+const char* ssid = "";
+const char* password = "";
 
 // Google API key
-const String apiKey = "AIzaSyCJDaVsB7VDmLH0nAmtSfnqL2f-jwPzXaM";  // Replace with your Google API key
-String Question = "Summarize the image and dont talk about the image quality";  // Default prompt
-int maxTokens = 300;  // Default max_tokens value
+const String apiKey = "";  // Replace with your Google API key
+String Question = "";  // Default prompt
+int maxTokens = ;  // Default max_tokens value
 
 // Web server
 WebServer server(80);
